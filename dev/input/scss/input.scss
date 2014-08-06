@@ -19,4 +19,6 @@
 
     &:not(:invalid) { background: #f4f4f0; }
   }
+
+  .checkbox { width: inherit; }
 }

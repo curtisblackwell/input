@@ -18,3 +18,6 @@
   /* line 20, ../scss/input.scss */
   .input-input .text:not(:invalid), .input-input .date:not(:invalid), .input-input .datetime:not(:invalid), .input-input .email:not(:invalid), .input-input .month:not(:invalid), .input-input .number:not(:invalid), .input-input .password:not(:invalid), .input-input .search:not(:invalid), .input-input .tel:not(:invalid), .input-input .time:not(:invalid), .input-input .url:not(:invalid), .input-input .week:not(:invalid) {
     background: #f4f4f0; }
+/* line 23, ../scss/input.scss */
+.input-input .checkbox {
+  width: inherit; }
