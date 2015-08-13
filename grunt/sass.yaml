@@ -1,0 +1,5 @@
+build:
+  options:
+    style: compressed
+  files:
+    input/css/input.css: input/scss/input.scss

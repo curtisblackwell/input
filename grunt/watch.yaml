@@ -1,0 +1,31 @@
+# options:
+#   livereload: true
+#
+sass:
+  files:
+    - input/scss/**/*.scss
+  tasks:
+    - sass
+    - copy
+    - notify:sass
+
+# scripts:
+#   files:
+#     - _add-ons/*/js/**/*.js
+#   tasks:
+#     - concat
+#     - uglify
+#     - copy
+#     - notify:scripts
+#
+misc:
+  files:
+    - input/**/*.{php,yaml,html}
+  tasks:
+    - copy
+    - notify:misc
+
+configFiles:
+  files:
+    - Gruntfile.js
+    - grunt/*.yaml

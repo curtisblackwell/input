@@ -1,0 +1,9 @@
+main:
+  files:
+    - expand: true
+      cwd: input/
+      src:
+        - '**'
+        - '!vendor/**'
+        - '!**/*.map'
+      dest: /Users/curtisblackwell/Sites/werner/html/_add-ons/input/

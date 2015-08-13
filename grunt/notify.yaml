@@ -1,0 +1,13 @@
+sass:
+  options:
+    message: Sass compiled and files copied.
+# scripts:
+#   options:
+#     message: JS compiled and files copied.
+misc:
+  options:
+    message: Files copied.
+
+notify_hooks:
+  options:
+    success: true
